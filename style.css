@@ -1,0 +1,75 @@
+header{
+    height: 110px;
+    width: 100%;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-item{
+    padding: 0px 55px;
+}
+
+/* footer */
+footer{
+    height: 110px;
+    width: 100%;
+    background-color: #2B2F4B;
+}
+footer h4{
+    font-size: 22;
+    color:rgb(255, 255, 255);
+    font-weight: 500
+}
+.container_footer{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imgProductos{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-top: 1rem;
+}
+.colorBoton{
+    color: white;
+    background-color: #a5b138;
+}
+.btn{
+    margin: 0px 10px;
+}
+.colorBoton:hover{
+    background-color: rgb(203, 216, 25);
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.factura {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.factura p{
+ width: 10%;    
+}
+
+.factura-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.factura-total {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    margin-top: 10px;
+}
